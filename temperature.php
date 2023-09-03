@@ -21,8 +21,6 @@ if ($x < 0) {
     echo "\n <p style=\"color: lightgreen;\">$x °C - не мороз и не тепло…</p> \n";
 } elseif ($x > 0) {
     echo "\n <p style=\"color: gold;\">$x °C - тепло!</p> \n";
-} else {
-    echo "\n <p>$x °C</p> \n";
 }
 
 $end = <<<EOD
